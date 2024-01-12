@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 export default function AboutPage() {
   return (
     <>
-      <span>About Page</span>
+      <span className="text-7xl">About Page</span>
     </>
   );
 }
 
 export const metadata: Metadata = {
-  title: "SEO Title",
+  title: "About Page",
   description: "SEO Description",
   keywords: ["About Page", "about", "information", "mision", "vision"],
 };
