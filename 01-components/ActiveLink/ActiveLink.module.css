@@ -1,0 +1,7 @@
+.link {
+  @apply bg-transparent hover:bg-slate-500 hover:bg-opacity-25 p-2 rounded cursor-pointer flex gap-2 items-center transition-colors;
+}
+
+.active-link {
+  @apply bg-blue-600 text-white;
+}
